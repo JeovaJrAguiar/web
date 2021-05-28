@@ -19,6 +19,9 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+#divMain{
+  padding-left: 500px;
+}
 
 /*
  * Base structure

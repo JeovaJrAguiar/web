@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Description: this is my first project using JS too, is a page simple, who calcules basic things.
+        Author: Jeová Jr Aguiar (jeova.junior897@gmail.com) or (jeova.junior@alu.ufc.br)
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeová Jr Aguiar">
+    <title>JS_DOM</title>
+    <link rel="stylesheet" href="app/app.css" />
+    <link rel="icon" type="png" href="img/icon.png"/>
+</head>
+<body>
+        <header>
+            <h1>Calculator Web</h1>
+        </header>
+        <div id = "blocoSoma" class="bloco" mouseenter="inb1()">
+            <h2>Sum</h2>
+            <input type="number" id="b11"> 
+            + 
+            <input type="number" id="b12">
+            <input type="button" id="b13" value="go" onclick="somar()">
+            <div id="r1"><h3>Resul: </h3></div>
+        </div>
+        <div id = "blocoSubtracao" class="bloco">
+            <h2>Subtraction</h2>
+            <input type="number" id="b21"> 
+            -
+            <input type="number" id="b22">
+            <input type="button" value="go" onclick="subtratir()">
+            <div id="r2"><h3>Resul: </h3></div>
+        </div>
+        <div id = "blocoMultiplicacao" class="bloco">
+            <h2>Multiplication</h2>
+            <input type="number" id="b31">
+            *
+            <input type="number" id="b32">
+            <input type="button" value="go" onclick="multiplicar()">
+            <div id="r3"><h3>Result: </h3></div>
+        </div>
+        <div id = "blocoDividir" class="bloco">
+            <h2>Division</h2>
+            <input type="number" id="b41">
+            /
+            <input type="number" id="b42">
+            <input type="button" value="go" onclick="dividir()">
+            <div id="r4"><h3>Result: </h3></div>
+        </div>
+    
+        <footer>
+            <p>
+                Developed by: <i>Jeová Caçula de Aguiar Júnior</i> | &copy; Copyright 2021
+                <br>
+                    e-mail: jeova.junior897@gmail.com | jeova.junior@alu.ufc.br
+                <br>
+                    <link value="stylesheet" href="https://www.linkedin.com/in/jeov%C3%A1-jr-aguiar-1174031b0/">
+            </p>
+        </footer>
+    <script  type="text/javascript" src="app/script.js">
+    </script>
+</body>
+</html>
